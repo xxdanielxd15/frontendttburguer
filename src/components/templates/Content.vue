@@ -3,16 +3,20 @@
         <div class="imgcontent">
             <Imagem/>
         </div> 
+        <div>
+            <TxtAcompanhamento/>
+        </div>
     </div>
 </template>
 
 <script>
 
 import Imagem from "./Imagem"
+import TxtAcompanhamento from "./TxtAcompanhamento"
 
 export default {
     name:"Content",
-    components:{Imagem}
+    components:{Imagem, TxtAcompanhamento}
 }
 </script>
 

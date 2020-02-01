@@ -2,7 +2,6 @@
   <div id="app">
     <Header title="T.T Burger" subtitle="início" />
     <Content>
-      <Imagem></Imagem>
     </Content>
   </div>
 </template>
@@ -11,11 +10,10 @@
 
 import Header from "./components/templates/Header";
 import Content from "./components/templates/Content";
-import Imagem from "./components/templates/Imagem";
 
 export default {
   name: "App",
-  components: {Header, Content, Imagem} 
+  components: {Header, Content} 
 }
 </script>
 
