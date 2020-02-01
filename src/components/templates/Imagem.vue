@@ -12,8 +12,7 @@ export default {
 
 <style>
     .img{
-        width: 250px;
-        border: 2px solid black;
+        width: 400px;
     }
 
     .divimg{

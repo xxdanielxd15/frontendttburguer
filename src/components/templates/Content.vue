@@ -19,12 +19,10 @@ export default {
 <style>
     .content {
         grid-area: content;
-        padding: 20px;
         align-items: center;
     }
 
     .imgcontent{
         justify-self: center;
-        border: 2px solid black;
     }
 </style>
