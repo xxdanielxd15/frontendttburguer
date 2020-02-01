@@ -1,6 +1,6 @@
 <template>
 <div class="clearfix">
-  <b-img center src="https://picsum.photos/125/125/?image=58" class="img" alt="Left image"></b-img>
+  <b-img fluid center :src="require('../../assets/img/logo_TT_transp.png')" class="img" ></b-img>
 </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
 
 <style>
     .img{
-        width: 200px;
+        width: 250px;
         border: 2px solid black;
     }
 
