@@ -2,7 +2,7 @@
 
 <div class="header">
   <b-navbar class="darktheme" toggleable="lg" type="dark" variant="dark black">
-    <b-navbar-brand href="#">{{title}}</b-navbar-brand>
+    <b-navbar-brand href="#" class="ttburgertxt">T.T Burger</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -29,6 +29,8 @@
 </template>
 
 <script>
+
+
 export default {
     name:"Header",
     props:{
@@ -39,26 +41,28 @@ export default {
 }
 </script>
 
-<style lscoped>
+<style lang="scss">
     .header {
         grid-area: header;
         background-color: black;
       
     }
     
-    .darktheme{
-        background-color: black;
+     @font-face {
+        font-family: 'Brothers Regular';
+        src: url('../../assets/font/Brothers Regular.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        line-: 1.5;
     }
 
-    .sub{
-        padding-left: 30px;
-        font-family: Arial, Helvetica, sans-serif;
+    .ttburgertxt{
+        font-family: 'Brothers Regular';
+        color:#fff;
+        font-size: 16px;
+
+        
     }
 
-    .titlelogout {
-         padding-left: 1120px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #ddd
-    }
 
 </style>
